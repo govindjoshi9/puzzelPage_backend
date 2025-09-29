@@ -11,7 +11,7 @@ const PORT = process.env.PORT;
 const app = express();
 const server = http.createServer(app);
 
-const allowedOrigins = ['http://localhost:5173', 'https://puzzle-challenge-eight.vercel.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://puzzle-app-frontend.vercel.app/'];
 
 app.use(cors({
     origin: allowedOrigins,
